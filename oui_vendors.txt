@@ -1,0 +1,9 @@
+fc:fb:fb,Google
+d8:bb:2c,Huawei
+18:af:61,TP-Link
+00:1a:2b,Cisco
+f4:f5:e8,Apple
+cc:19:a8,Netgear
+54:e0:19,Dell
+38:01:46,Xiaomi
+f8:04:2e,Samsung
