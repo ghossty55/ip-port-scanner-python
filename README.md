@@ -1,4 +1,4 @@
-# 🛰️ IP + Port Scanner - Python Pentesting Tool
+#  IP + Port Scanner - Python Pentesting Tool
 
 **Author:** Ghossty  
 **Description:**  
@@ -7,7 +7,7 @@ It is a **reconnaissance tool** for penetration testing in controlled environmen
 
 ---
 
-## 🧰 Features
+##  Features
 
 - Full active IP scan (with ping)
 - Hostname resolution
@@ -18,18 +18,18 @@ It is a **reconnaissance tool** for penetration testing in controlled environmen
 
 ---
 
-## ⚙️ Requirements
+## Requirements
 
 - Python 3
 - Operating system: Windows or Linux
 - `oui_vendors.txt` file (contains basic vendor data; for better detection, you can edit and add more entries using the same format)
 
-### 🔌 Windows note:
+### Windows note:
 You must run the terminal as **administrator** for `arp -a` to work correctly.
 
 ---
 
-## 🚀 Usage
+## Usage
 
 ```bash
 python3 ip_scanner.py
@@ -37,20 +37,20 @@ python3 ip_scanner.py
 
 When prompted, enter the base subnet:
 ```
-Enter the base subnet 🌐: 192.168.1
+Enter the base subnet : 192.168.1
 ```
 
 The `scan_results.txt` file will be automatically created with all scan results.
 
 ---
 
-## 📦 Example Output
+##  Example Output
 
 ```txt
-📊 Network Scan Results
+ Network Scan Results
 
 IP: 192.168.1.1
-Hostname: name not available ❌
+Hostname: name not available 
 MAC: cc-19-a8-e6-e8-4f
 Vendor: Unknown
 Open Ports: 22, 23, 80, 443
@@ -59,7 +59,7 @@ Open Ports: 22, 23, 80, 443
 
 ---
 
-## 📈 Future Improvements
+## Future Improvements
 
 - Export to `.csv` and `.json`
 - Ping-less detection (`ARP scan`, `nmap -Pn`)
@@ -69,7 +69,7 @@ Open Ports: 22, 23, 80, 443
 
 ---
 
-## ⚖️ License
+##  License
 
 This project is licensed under the **MIT License**.  
 You can use, modify, and share the code freely, but **without warranty**.  
